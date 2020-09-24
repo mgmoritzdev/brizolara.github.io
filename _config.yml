@@ -1,7 +1,7 @@
 # Site
 name: "Tiago Brizolara _config" <!-- [Brizo] Mediumish --> 
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
+title: "Tiago Brizolara _config..." <!-- [Brizo] Mediumish -->
+description: "Composition, Research, Interactivity, Ficção de Música Popular"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /mediumish-theme-jekyll
