@@ -3,7 +3,7 @@ layout: post
 title:  "Elemental"
 author: tiago
 categories: [ Jekyll, tutorial ]
-image: assets/images/square_Elemental-MariaFlor
+image: assets/images/square_Elemental-MariaFlor.png
 featured: true
 hidden: true
 ---
