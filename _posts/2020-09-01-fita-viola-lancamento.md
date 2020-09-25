@@ -6,7 +6,7 @@ categories: [ Jekyll, tutorial ]
 tags: [music, composer, instrumental, acoustic, fingerstyle, guitar, 7strings, brazilian, latin, mpb, jazz]
 image: assets/images/capa-viola-2020.png
 description: "Disponivel nas principais plataformas digitais."
-featured: false
+featured: true
 hidden: false
 ---
 
