@@ -12,6 +12,8 @@
                             {% else %}
                             <img class="featured-box-img-cover" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
                             {% endif %}
+                            
+                            <img src="/../assets/images/icons/journal-icon-2.png" width="60" height="60">
                         </a>
                     </div>
                 </div>
@@ -28,7 +30,6 @@
                                 </div>
                                 {% endif %}
                             </h2>
-
                             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
                         </div>
                         <div class="card-footer b-0 bg-white mt-auto">
