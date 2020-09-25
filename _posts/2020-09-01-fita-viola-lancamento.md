@@ -7,7 +7,7 @@ tags: [music, composer, instrumental, acoustic, fingerstyle, guitar, 7strings, b
 image: assets/images/capa-viola-2020.png
 description: "Disponivel nas principais plataformas digitais."
 featured: false
-hidden: true
+hidden: false
 ---
 
 **Quanto Dura Uma Fita de Viola em Tempo de Reis?**  
