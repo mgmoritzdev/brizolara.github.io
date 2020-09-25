@@ -10,5 +10,4 @@ featured: false
 hidden: false
 ---
 
-**Quanto Dura Uma Fita de Viola em Tempo de Reis?**  
-Download portfolio: [Tiago Brizolara - Portfolio Artistico - 21-06-2020](Tiago Brizolara - Portfolio Artistico - 21-06-2020)
+[Click to download Artisitic Portfolio](Tiago Brizolara - Portfolio Artistico - 21-06-2020)
