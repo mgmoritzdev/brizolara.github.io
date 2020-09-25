@@ -4,9 +4,9 @@ title:  "Latest Release"
 author: tiago
 categories: [ Jekyll, tutorial ]
 tags: [music, composer, instrumental, acoustic, fingerstyle, guitar, 7strings, brazilian, latin, mpb, jazz]
-image: assets/images/capa-viola-2020.png
+image: assets/images/divulgacao-streaming-fita-de-viola-facebook.png
 description: "Disponivel nas principais plataformas digitais."
-featured: true
+featured: false
 hidden: false
 ---
 
