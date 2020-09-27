@@ -2,8 +2,8 @@
 layout: post
 title:  "Download Portfolio"
 author: tiago
-categories: [ Jekyll, tutorial ]
-tags: [portfolio, composer, contemporary art, soundtrack, brazilian music, instrumental,latin, mpb, jazz]
+categories: [portfolio, composer, contemporary art, soundtrack, brazilian music, instrumental, latin, mpb, jazz, developer, creative computing, multidisciplinar]
+tags: [portfolio, composer, contemporary art, soundtrack, brazilian music, instrumental, latin, mpb, jazz, developer, creative computing, multidisciplinar]
 image: assets/images/portfolio.png
 description: "Download portfolio"
 featured: false
