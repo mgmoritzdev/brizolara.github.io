@@ -15,11 +15,11 @@ hasSourceCode: false
 ---
 
 *[versão em Português ao final]*
-Wind, rain and thunder, embodied as music/sound instruments. The *Elemental* ia a new development in music expression, gathering recent advances in real-time digital audio design via synthesis (i.e., without pre-recorded sounds) and new human-machine interfaces, to appropriate natural soundsin an axis of expression that traversessince sounds as in nature up to the abstract experience, passing by what I call *surreal performance*: the sounds are real, but their behaviour, now dictated by the body of the performer, is new.
+Wind, rain and thunder, embodied as music/sound instruments. The *Elemental* is a new development in music expression, gathering recent advances in real-time digital audio design via synthesis (i.e., without pre-recorded sounds) and new human-machine interfaces, to appropriate natural sounds in an axis of expression that traverses since sounds as found in nature up to the abstract experience, passing by what I call *surreal performance*: the sounds are real, but their behaviour, now dictated by the body of the performer, is new.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V_Sv5HiV5zU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In the video the multiartist Maria Flor, from recife City (Brazil), tests the instrument for the frst time. I thank João Tragtenberg and the Federal University of Pernambuco (UFPE), in the persons of professors Filipe Calegario and Giordano Cabral, for the partnership during the international mobility that I developed along with UFPE's Center of Infomatics. The mobility was funded by the department of Morbihan and Bretagne region, in the context of my PhD at Université Bretagne Sud (France).
+In the video the multiartist Maria Flor, from recife City (Brazil), tests the instrument for the first time. I thank João Tragtenberg and the Federal University of Pernambuco (UFPE), in the persons of professors Filipe Calegario and Giordano Cabral, for the partnership during the international mobility that I developed along with UFPE's Center of Infomatics. The mobility was funded by the department of Morbihan and Bretagne region, in the context of my PhD at Université Bretagne Sud (France).
 
 A paper was published in NIME 2020 conference (click [here](https://www.nime.org/proceedings/2020/nime2020_paper90.pdf) to download):
 Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gesturally Controlled System to Perform Meteorological Sounds. *Proceedings of the International Conference on New Interfaces for Musical Expression*, Birmingham City University, pp. 470–476.
