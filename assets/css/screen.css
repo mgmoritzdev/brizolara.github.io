@@ -160,7 +160,20 @@ section.recent-posts {
     width: 100%;
     height: 100%;
     max-height: 100%;
+    <!-- [Brizo] css noob... trying to overlay an  image above it -->
+    position: relative;
+    top: 0;
+    left: 0;
+    <!-- -->
 }
+
+<!-- [Brizo] -->
+.featured-box-img-cover-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+<!-- -->
 
 @media (max-width:991px) {
     .featured-box-img-cover {
