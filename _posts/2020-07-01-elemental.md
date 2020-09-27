@@ -27,19 +27,19 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
 
 Abstract: In this paper, we present and evaluate Elemental, a NIME (New Interface for Musical Expression) based on audio synthesis of sounds of meteorological phenomena, namely rain, wind and thunder, intended for application in contemporary music/sound art, performing arts and entertainment. We first describe the system, controlled by the performer’s arms through Inertial Measuring Units and Electromyography sensors. The produced data is analyzed and used through mapping strategies as input of the sound synthesis engine. We conducted user studies to refine the sound synthesis engine, the choice of gestures and the mappings between them, and to finally evaluate this proof of concept. Indeed, the users approached the system with their own awareness ranging from the manipulation of abstract sound to the direct simulation of atmospheric phenomena - in the latter case, it could even be to revive memories or to create novel situations. This suggests that the approach of instrumentalization of sounds of known source may be a fruitful strategy for constructing expressive interactive sonic systems.
 
-Bibtex:
-@inproceedings{NIME20_90,
-  author = {Brizolara, Tiago and Gibet, Sylvie and Larboulette, Caroline},
-  title = {Elemental: a Gesturally Controlled System to Perform Meteorological Sounds},
-  pages = {470--476},
-  booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
-  editor = {Michon, Romain and Schroeder, Franziska},
-  year = {2020},
-  month = jul,
-  publisher = {Birmingham City University},
-  address = {Birmingham, UK},
-  issn = {2220-4806},
-  url = {https://www.nime.org/proceedings/2020/nime2020_paper90.pdf}
+Bibtex:  
+@inproceedings{NIME20_90,  
+  author = {Brizolara, Tiago and Gibet, Sylvie and Larboulette, Caroline},  
+  title = {Elemental: a Gesturally Controlled System to Perform Meteorological Sounds},  
+  pages = {470--476},  
+  booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},  
+  editor = {Michon, Romain and Schroeder, Franziska},  
+  year = {2020},  
+  month = jul,  
+  publisher = {Birmingham City University},  
+  address = {Birmingham, UK},  
+  issn = {2220-4806},  
+  url = {https://www.nime.org/proceedings/2020/nime2020_paper90.pdf}  
 }
 
 *Português:*
