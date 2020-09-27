@@ -15,7 +15,6 @@ hasSourceCode: false
 ---
 
 *[versão em Português ao final]*
-
 Wind, rain and thunder, embodied as music/sound instruments. The *Elemental* ia a new development in music expression, gathering recent advances in real-time digital audio design via synthesis (i.e., without pre-recorded sounds) and new human-machine interfaces, to appropriate natural soundsin an axis of expression that traversessince sounds as in nature up to the abstract experience, passing by what I call *surreal performance*: the sounds are real, but their behaviour, now dictated by the body of the performer, is new.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V_Sv5HiV5zU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,6 +27,7 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
 Abstract: In this paper, we present and evaluate Elemental, a NIME (New Interface for Musical Expression) based on audio synthesis of sounds of meteorological phenomena, namely rain, wind and thunder, intended for application in contemporary music/sound art, performing arts and entertainment. We first describe the system, controlled by the performer’s arms through Inertial Measuring Units and Electromyography sensors. The produced data is analyzed and used through mapping strategies as input of the sound synthesis engine. We conducted user studies to refine the sound synthesis engine, the choice of gestures and the mappings between them, and to finally evaluate this proof of concept. Indeed, the users approached the system with their own awareness ranging from the manipulation of abstract sound to the direct simulation of atmospheric phenomena - in the latter case, it could even be to revive memories or to create novel situations. This suggests that the approach of instrumentalization of sounds of known source may be a fruitful strategy for constructing expressive interactive sonic systems.
 
 Bibtex:  
+<pre>
 @inproceedings{NIME20_90,  
   author = {Brizolara, Tiago and Gibet, Sylvie and Larboulette, Caroline},  
   title = {Elemental: a Gesturally Controlled System to Perform Meteorological Sounds},  
@@ -41,6 +41,7 @@ Bibtex:
   issn = {2220-4806},  
   url = {https://www.nime.org/proceedings/2020/nime2020_paper90.pdf}  
 }
+</pre>
 
 *Português:*
 
