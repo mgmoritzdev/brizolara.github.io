@@ -2,8 +2,8 @@
 name: "Tiago Brizolara"
 title: "Tiago Brizolara"
 description: "Creative Computing, Research, NIME, Ficção de Música Popular"
-logo: 'assets/images/Tiago_Brizolara_3.jpg'
-favicon: 'assets/images/Tiago_Brizolara_3.jpg'
+logo: 'assets/images/TODO'
+favicon: 'assets/images/TODO'
 baseurl: / #/mediumish-theme-jekyll
 theme: mediumish-theme-jekyll
 google_analytics: 'UA-46278016-1'
@@ -17,7 +17,7 @@ authors:
   tiago:
     name: Tiago
     display_name: Tiago
-    avatar: 'assets/images/avatar-tiago.png'
+    avatar: 'assets/images/Tiago_Brizolara_3.jpg'
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: tiago.brizolara@gmail.com
     web: https://www.tiagobrizolara.com
