@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Latest Release"
+title:  "Primeiras Milongas - com Iara Germer"
 author: tiago
 categories: [ music composition, release, gaucho, brazilian music, mpb, florianopolis, song, songwriter, cancao ]
 tags: [music, composer, acoustic, guitar, 7strings, brazilian, latin, mpb]
