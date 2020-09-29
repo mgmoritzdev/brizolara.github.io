@@ -30,13 +30,11 @@
                                 {% endif %}
                             </h2>
                             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
-
-                            <!-- [Brizo] Tiny buttons revealing if thre's code, paper, audio, video, score, etc in this post-->
-                            {% include small_button_postbox.html %}
-
                         </div>
                         <div class="card-footer b-0 bg-white mt-auto">
                             <div class="wrapfooter">
+                                <!-- [Brizo] Tiny buttons revealing if thre's code, paper, audio, video, score, etc in this post-->
+                                {% include small_button_postbox.html %}
 <!-- [Brizo] not showing author info
                                 {% if post.author %}
                                 <span class="meta-footer-thumb">
