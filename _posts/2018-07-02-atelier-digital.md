@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Aelier Digital"
+title:  "Atelier Digital"
 author: tiago
 categories: [ digital art, group, exhibition, art gallery, interactive installation, art installation, multidisciplinar, florianopolis ]
-image: assets/images/atelier-digital.png
+image: assets/images/atelier-digital.jpg
 featured: false
 hidden: false
 hasAudio: false
@@ -19,10 +19,10 @@ The *Digital Atelier* produces art with digital perpassings and promotes creatio
 
 <div class="row">
   <div class="column">
-    <img src="assets/images/encontros-colaborativos.jpg">
+    <img src="{{ site.baseurl }}/assets/images/encontros-colaborativos.jpg">
   </div>
   <div class="column">
-    <img src="assets/images/experimental4.jpg">
+    <img src="{{ site.baseurl }}/assets/images/experimental4.jpg">
   </div>
 </div>
 
