@@ -8,6 +8,13 @@ image: assets/images/divulgacao-streaming-fita-de-viola-facebook.png
 description: "Disponivel nas principais plataformas digitais."
 featured: false
 hidden: false
+hasAudio: true
+hasVideo: true
+hasPaper: false
+hasScore: false
+hasInteractivity: false
+hasSourceCode: false
+hasPDF: false
 ---
 
 **Quanto Dura Uma Fita de Viola em Tempo de Reis?** disponivel nas principais plataformas digitais - 2020.

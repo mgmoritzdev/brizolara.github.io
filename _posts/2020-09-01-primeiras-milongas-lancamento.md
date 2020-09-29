@@ -8,6 +8,13 @@ image: assets/images/divulgacao-streaming-milongas-facebook.png
 description: "Disponivel nas principais plataformas digitais."
 featured: false
 hidden: false
+hasAudio: true
+hasVideo: true
+hasPaper: false
+hasScore: false
+hasInteractivity: false
+hasSourceCode: false
+hasPDF: false
 ---
 
 **Primeiras Milongas** disponivel nas principais plataformas digitais - 2020.

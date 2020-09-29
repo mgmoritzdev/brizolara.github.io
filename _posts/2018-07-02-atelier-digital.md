@@ -12,6 +12,7 @@ hasPaper: true
 hasScore: false
 hasInteractivity: false
 hasSourceCode: false
+hasPDF: false
 ---
 
 *[versão em Português ao final]*  

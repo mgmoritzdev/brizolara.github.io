@@ -8,6 +8,13 @@ image: assets/images/portfolio.png
 description: "Download portfolio"
 featured: false
 hidden: false
+hasAudio: false
+hasVideo: false
+hasPaper: false
+hasScore: false
+hasInteractivity: false
+hasSourceCode: false
+hasPDF: true
 ---
 
-[Click to download Artisitic Portfolio](Tiago Brizolara - Portfolio Artistico - 21-06-2020)
+[Click to download Artisitic Portfolio]("{{ site.baseurl }}/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf")
