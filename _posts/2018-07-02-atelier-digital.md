@@ -29,7 +29,9 @@ The *Digital Atelier* produces art with digital perpassings and promotes creatio
     <img src="{{ site.baseurl }}/assets/images/experimental4.jpg" width="564.7058823529412" height="300">
   </div>
 </div>
-</p>
+
+<p> </p>
+
 <div style="text-align:center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Db4rs94Jlu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
