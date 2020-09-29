@@ -17,4 +17,4 @@ hasSourceCode: false
 hasPDF: true
 ---
 
-[Click to download Artisitic Portfolio]("{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf")
+<a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf">Click to download Artisitic Portfolio</a>
