@@ -16,6 +16,8 @@ hidden: false
 
 EP lançado em diversas plataformas digitais, com as músicas Milonga do Quem Dera e Milonga para Minha Mãe.
 
+<img src="{{ site.baseurl }}/assets/images/primeiras-milongas-mosaico.jpeg">
+
 Ficha técnica:
 <pre>
 Letra e voz: Iara Germer.

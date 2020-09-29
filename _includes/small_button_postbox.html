@@ -1,0 +1,47 @@
+<style>
+    .button {
+      border: none;
+      color: white;
+      padding: 4px 4px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+      margin: 4px 2px;
+      border-radius: 4px;
+      cursor: arrow;
+      background-color: #000000;
+    }
+    
+    /*.button1 {background-color: #4CAF50;} /* 4CAF50 Green */
+    /*.button2 {background-color: #008CBA;} /* Blue */
+</style>
+
+{% if post.hasVideo %}
+<button class="button">video</button>
+{% endif %}
+{% if post.hasPaper %}
+<button class="button">paper</button>
+{% endif %}
+{% if post.hasSourceCode %}
+<button class="button">source code</button>
+{% endif %}
+{% if post.hasAudio %}
+<button class="button">audio</button>
+{% endif %}
+{% if post.hasInteractivity %}
+<button class="button">interactive</button>
+{% endif %}
+{% if post.hasScore %}
+<button class="button">music score</button>
+{% endif %}
+
+<!-- <div class="rating-holder">
+<div class="c-rating c-rating--regular" data-rating-value="{{post.rating}}">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+</div> -->

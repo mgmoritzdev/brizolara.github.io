@@ -29,6 +29,10 @@
                 {% include star_rating_postbox.html %}
                 </div>
                 {% endif %}
+
+                <!-- [Brizo] Tiny buttons revealing if thre's code, paper, audio, video, score, etc in this post-->
+                {% include star_rating_postbox.html %}
+
             </h2>
             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
         </div>
