@@ -15,8 +15,6 @@
                     {% else %}
                         <img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"> 
                     {% endif %}
-                
-                        
 
                 {% endif %}
             </a>
@@ -30,11 +28,12 @@
                 </div>
                 {% endif %}
 
-                <!-- [Brizo] Tiny buttons revealing if thre's code, paper, audio, video, score, etc in this post-->
-                {% include star_rating_postbox.html %}
-
             </h2>
             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+
+            <!-- [Brizo] Tiny buttons revealing if thre's code, paper, audio, video, score, etc in this post-->
+            {% include star_rating_postbox.html %}
+            
         </div>
         <div class="card-footer bg-white">
             <div class="wrapfooter">
