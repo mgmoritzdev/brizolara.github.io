@@ -26,9 +26,10 @@ The *Digital Atelier* produces art with digital perpassings and promotes creatio
     <img src="{{ site.baseurl }}/assets/images/experimental4.jpg" width="564.7058823529412" height="300">
   </div>
 </div>
+</p>
+<div style="text-align:center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Db4rs94Jlu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Db4rs94Jlu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-*Português*:
+*Português*:  
 O Atelier Digital produz arte com atravessamentos digitais e promove eventos de criação e formação com artistas locais e convidados. A equipe inicial, em 2017, foi composta por Alexandre Chaves, Kaue Costa, João Aires (também o idealizador) e Tiago Brizolara, membro entre 2017 e 2018 e parceiro desde então.
