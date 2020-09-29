@@ -23,7 +23,7 @@ The *Digital Atelier* produces art with digital perpassings and promotes creatio
     <img src="{{ site.baseurl }}/assets/images/encontros-colaborativos.jpg" width="300" height="300">
   </div>
   <div class="column">
-       
+    &nbsp;&nbsp;   
   </div>
   <div class="column">
     <img src="{{ site.baseurl }}/assets/images/experimental4.jpg" width="564.7058823529412" height="300">
