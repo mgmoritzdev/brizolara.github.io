@@ -12,7 +12,7 @@ comments: true
 <br>I have also a long experience in software development in the medical software industry, with a master in Medical Physics (UFSC, Brazil).<!--</br>-->
 </p>
 
-<p> </p>
+<p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
 
 <p>This site is a fuller version of my portfolio, plus free resources and blog.</p>
 
@@ -21,16 +21,17 @@ comments: true
 <table>
     <tr>
         <td><a href="">Musician/artist/developer CV</a></td>
+        <td>&nbsp;&nbsp;</td>
         <td><a href="">Developer/scientist CV</a></td>
     </tr>
     <tr>
         <td><a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf">Artistic portfolio</a></td>
+        <td>&nbsp;&nbsp;</td>
         <td><a href="">developer/scientist portfolio</a></td>
     </tr>
 </table>
 
-<p> </p>
-<p> </p>
+<p>&nbsp;</p><!-- TODO solve this formatting issue in the CSS... -->
 
 <h4>Release (artistic)</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
 
