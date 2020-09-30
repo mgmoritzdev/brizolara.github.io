@@ -27,6 +27,8 @@ comments: true
     </tr>
 </table>
 
+<p> </p>
+
 <h4>Release (artistic)</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
 
 <p>Tiago is a composer, arranger and researcher, creating free, instrumental, songs, experimental and sound art music, with a strong Brazilian and South American influence.  
