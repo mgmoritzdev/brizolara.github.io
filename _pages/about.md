@@ -12,9 +12,9 @@ comments: true
 <br>I have also a long experience in software development in the medical software industry, with a master in Medical Physics (UFSC, Brazil).<!--</br>-->
 </p>
 
-<p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
-
 <p>This site is a fuller version of my portfolio, plus free resources and blog.</p>
+
+<p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
 
 <h4>Portfolio and Curriculum Vitae</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
 
@@ -31,7 +31,7 @@ comments: true
     </tr>
 </table>
 
-<p>&nbsp;</p><!-- TODO solve this formatting issue in the CSS... -->
+<p>&nbsp;</p><!-- TODO solve this formatting issue in the CSS or in post.html... -->
 
 <h4>Release (artistic)</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
 
