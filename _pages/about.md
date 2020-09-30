@@ -13,12 +13,12 @@ I have also a long experience in software development in the medical software in
 
 <p>This site is a fuller version of my portfolio, plus free resources and blog.
 
-<h4>Portfolio and Curriculum Vitae</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... >
+<h4>Portfolio and Curriculum Vitae</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
 
 <p>Click to download my <a href="">musician/artist/developer CV</a>, or my <a href="">developer/scientist CV</a>.
 Click to download my <a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf">artistic portfolio</a>, or my <a href="">developer/scientist portfolio</a>.
 
-<h4>Release (artistic)</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... >
+<h4>Release (artistic)</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
 
 <p>Tiago is a composer, arranger and researcher, creating free, instrumental, songs, experimental and sound art music, with a strong Brazilian and South American influence.  
 Between 2005 and 2015 he presented compositions at festivals in SC, PR and SP, acted as a musician, lecturer and proponent in popular and folk music projects - with emphasis on artistic presentations in Santiago-Chile (2013) and Lima-Peru (2015) and two independent CDs. Since 2016 he has been working in music, sound art, development for visuals, extended dance and digital luthierie with R.I.S.C.O. and with interactive digital installations and soundtrack / sound design with Atelier Digital O Sítio, among other partners. In these areas, he was also a teacher of courses and workshops and a professor at Fatenp-SC. He is currently a PhD student in Computing and Human Movement at Université Bretagne Sud (France), researching interactive audiovisual computational applications for stage performance. He holds a master's degree in Physics from UFSC-SC, a specialist in Digital Game Development from PUC-PR, was a Music Composition student at UEM-PR and attended the courses Orchestration I and Music Composition for Film, TV and Games (Berklee School of Music Online ), as well as a consultant in software development for the medical field.
