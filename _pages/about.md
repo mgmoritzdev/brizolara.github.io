@@ -9,8 +9,10 @@ comments: true
 <div class="col-md-8 pr-5">
 
 <p>I'm a composer, developer and scientist. I'm currently researching links from human movement to sound systems (mainly bottom-up synthesis) and to visuals, either explicit or AI-driven (the <a href="{{site.baseurl}}/Elemental">Elemental</a> comes from this research). I've been creating brazilian instrumental music (choro, "jazz", etc) and audio design/soundtrack/creative coding in works with other artists and performers for some years now - musicians, DJs, actors, dancers... I lived in Brazil until 2018, now I'm doing my PhD at Université Bretagne Sud, France.  
-<br>I have also a long experience in software development in the medical software industry, with a master in Medical Physics (UFSC, Brazil).</br>
+<br>I have also a long experience in software development in the medical software industry, with a master in Medical Physics (UFSC, Brazil).<!--</br>-->
 </p>
+
+<p> </p>
 
 <p>This site is a fuller version of my portfolio, plus free resources and blog.</p>
 
@@ -27,6 +29,7 @@ comments: true
     </tr>
 </table>
 
+<p> </p>
 <p> </p>
 
 <h4>Release (artistic)</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
