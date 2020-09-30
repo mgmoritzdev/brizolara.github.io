@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About / Portfolio / CV / Release
 permalink: /about
 comments: true
 ---
@@ -8,28 +8,24 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+I'm a composer, developer and scientist. I'm currently researching links from human movement to sound systems (mainly bottom-up synthesis) and to visuals, either explicit or AI-driven (the <a href="{{site.baseurl}}/Elemental">Elemental</a> comes from this research). I've been creating brazilian instrumental music (choro, "jazz", etc) and audio design/soundtrack/creative coding in works with other artists and performers for some years now - musicians, DJs, actors, dancers... I lived in Brazil until 2018, now I'm doing my PhD at Université Bretagne Sud, France.  
+I have also a long experience in software development in the medical software industry, with a master in Medical Physics (UFSC, Brazil). 
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+This site is a fuller version of my portfolio, plus free resources and blog.
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+<h3>Portfolio and Curriculum Vitae</h3>
 
-<h4>Questions or bug reports?</h4>
+Click to download my <a href="">musician/artist/developer CV</a>, or my <a href="">developer/scientist CV</a>.
+Click to download my <a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf">artistic portfolio</a>, or my <a href="">developer/scientist portfolio</a>.
 
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+<h3>Release (artistic)</h3>
 
-</div>
+Tiago is a composer, arranger and researcher, creating free, instrumental, songs, experimental and sound art music, with a strong Brazilian and South American influence.  
+Between 2005 and 2015 he presented compositions at festivals in SC, PR and SP, acted as a musician, lecturer and proponent in popular and folk music projects - with emphasis on artistic presentations in Santiago-Chile (2013) and Lima-Peru (2015) and two independent CDs. Since 2016 he has been working in music, sound art, development for visuals, extended dance and digital luthierie with R.I.S.C.O. and with interactive digital installations and soundtrack / sound design with Atelier Digital O Sítio, among other partners. In these areas, he was also a teacher of courses and workshops and a professor at Fatenp-SC. He is currently a PhD student in Computing and Human Movement at Université Bretagne Sud (France), researching interactive audiovisual computational applications for stage performance. He holds a master's degree in Physics from UFSC-SC, a specialist in Digital Game Development from PUC-PR, was a Music Composition student at UEM-PR and attended the courses Orchestration I and Music Composition for Film, TV and Games (Berklee School of Music Online ), as well as a consultant in software development for the medical field.
 
-<div class="col-md-4">
+<!-- TODO 
+<h3>Technical Riders</h3>
+-->
 
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
-
-</div>
 </div>
 </div>
