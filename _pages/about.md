@@ -2,6 +2,7 @@
 layout: page
 title: About / Portfolio / CV / Release
 permalink: /about
+lang: pt_BR
 comments: true
 ---
 
