@@ -14,7 +14,7 @@ disqus: 'demowebsite'
 include: ["_pages"]
 permalink: /:title/
 
-languages: ["en", "pt_BR"] #, "es", "fr"]
+languages: ["en", "pt_BR"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 parallel_localization: true
