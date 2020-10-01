@@ -28,7 +28,7 @@ comments: true
     <tr>
         <td><a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf">Artistic portfolio</a></td>
         <td>&nbsp;&nbsp;</td>
-        <td><a href="">developer/scientist portfolio</a></td>
+        <td><a href="">Developer/scientist portfolio</a></td>
     </tr>
 </table>
 
