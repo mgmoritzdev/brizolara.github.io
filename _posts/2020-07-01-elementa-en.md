@@ -4,6 +4,7 @@ title:  "Elemental"
 author: tiago
 categories: [ NIME, music composition, DMI, audio design, computer music, pure data, myo ]
 image: assets/images/square_Elemental-MariaFlor.png
+lang: en
 featured: true
 hidden: true
 hasAudio: false
@@ -15,7 +16,6 @@ hasSourceCode: false
 hasPDF: true
 ---
 
-*[versão em Português ao final]*
 Wind, rain and thunder, embodied as music/sound instruments. The *Elemental* is a new development in music expression, gathering recent advances in real-time digital audio design via synthesis (i.e., without pre-recorded sounds) and new human-machine interfaces, to appropriate natural sounds in an axis of expression that traverses since sounds as found in nature up to the abstract experience, passing by what I call *surreal performance*: the sounds are real, but their behaviour, now dictated by the body of the performer, is new.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V_Sv5HiV5zU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

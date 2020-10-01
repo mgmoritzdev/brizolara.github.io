@@ -12,6 +12,11 @@ mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a
 include: ["_pages"]
 permalink: /:title/
 
+languages: ["en", "pt"] #, "es", "fr"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "README.md"]
+parallel_localization: true
+
 # Authors
 authors:
   tiago:
