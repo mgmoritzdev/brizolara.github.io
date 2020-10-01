@@ -5,7 +5,7 @@ This is a portfolio site, based on Mediumish, a Jekyll theme in format of blog s
 Significant changes:
 - Author info, date, ratings were all removed from the boxes (postbox.html and featuredbox.html)
 - Instead, a set of small buttons reflecting the type of media found in the post are shown at the bottom (they are defined in small_buttons_postbox.html)
-- Added internationalization via Jekyll plugin *polyglot*. It is also included as a git submodule, in case it needs to be recompiled (do this by `gem install jekyll-polyglot` inside \poliglot). For usage, please check poliglot's README.
+- Added internationalization via Jekyll plugin *polyglot*. For usage, please check poliglot's README at https://github.com/untra/polyglot.
 
 ---
 
