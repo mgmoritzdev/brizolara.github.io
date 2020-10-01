@@ -4,7 +4,7 @@ title: "Tiago Brizolara"
 description: "Creative Computing, Research, NIME, Contemporary Music"
 logo: 'assets/images/assinatura-artistica.JPG'
 favicon: 'assets/images/assinatura-artistica.JPG'
-baseurl: / 
+baseurl: /brizolara.github.io
 theme: mediumish-theme-jekyll
 google_analytics: 'UA-46278016-1'  
 disqus: 'demowebsite'
@@ -62,11 +62,11 @@ paginate: 6
 paginate_path: /page:num/
 
 # Language (polyglot plugin)
-languages: ["en", "pt_BR"]
-default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css", "README.md"]
-parallel_localization: true
-lang_from_path: true # Enables getting page language from the first or second path segment, 
+#languages: ["en", "pt_BR"]
+#default_lang: "en"
+#exclude_from_localization: ["javascript", "images", "css", "README.md"]
+#parallel_localization: true
+#lang_from_path: true # Enables getting page language from the first or second path segment, 
                      # e.g de/first-one.md, or _posts/zh_Hans_HK/use-second-segment.md , if the lang frontmatter isn't defined.
     
 # Other
