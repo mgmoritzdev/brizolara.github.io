@@ -4,7 +4,6 @@ title:  "Elemental"
 author: tiago
 categories: [ NIME, music composition, DMI, audio design, computer music, pure data, myo ]
 image: assets/images/square_Elemental-MariaFlor.png
-lang: en
 featured: true
 hidden: true
 hasAudio: false
