@@ -2,7 +2,7 @@
 layout: page
 title: About / Portfolio / CV / Release
 permalink: about/
-lang: en
+#lang: en
 comments: true
 ---
 
