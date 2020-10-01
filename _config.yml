@@ -1,7 +1,9 @@
 # Site
 name: "Tiago Brizolara"
 title: "Tiago Brizolara"
-description: "Creative Computing, Research, NIME, Ficção de Música Popular"
+description: 
+  en: "Creative Computing, Research, NIME, Contemporary Music"
+  pt_BR: "Computação Criativa, Pesquisa, NIME, Ficção de Música Popular"
 logo: 'assets/images/assinatura-artistica.JPG'
 favicon: 'assets/images/assinatura-artistica.JPG'
 baseurl: /brizolara.github.io
@@ -27,7 +29,9 @@ authors:
     email: tiago.brizolara@gmail.com
     web: https://tiagobrizolara.com
     twitter: https://twitter.com/brizolara
-    description: "Researcher, composer, creator, developer. From instrumental music to new interfaces for music expression."
+    description:
+      en: "Researcher, composer, creator, developer. From instrumental music to new interfaces for music expression."
+      pt_BR: "Pesquisador, compositor, criador, desenvolvedor. Da música instrumental a novas interfaces para expressão musical."
   john:
     name: John
     display_name: John?    
@@ -80,4 +84,4 @@ adsense-data-ad-slot: "1363087678"
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, /polyglot]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, polyglot/]
