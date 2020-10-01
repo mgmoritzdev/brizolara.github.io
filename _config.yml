@@ -63,6 +63,7 @@ languages: ["en", "pt_BR"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 parallel_localization: true
+lang_from_path: true # enables getting page language from the first or second path segment, e.g de/first-one.md, or _posts/zh_Hans_HK/use-second-segment.md , if the lang frontmatter isn't defined.
     
 # Other
 markdown: kramdown
