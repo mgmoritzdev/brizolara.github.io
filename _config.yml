@@ -8,9 +8,9 @@ logo: 'assets/images/assinatura-artistica.JPG'
 favicon: 'assets/images/assinatura-artistica.JPG'
 baseurl: /brizolara.github.io
 theme: mediumish-theme-jekyll
-#google_analytics: 'UA-46278016-1'
+google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
-#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
@@ -63,7 +63,8 @@ languages: ["en", "pt_BR"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 parallel_localization: true
-lang_from_path: true # enables getting page language from the first or second path segment, e.g de/first-one.md, or _posts/zh_Hans_HK/use-second-segment.md , if the lang frontmatter isn't defined.
+lang_from_path: true # Enables getting page language from the first or second path segment, 
+                     # e.g de/first-one.md, or _posts/zh_Hans_HK/use-second-segment.md , if the lang frontmatter isn't defined.
     
 # Other
 markdown: kramdown
