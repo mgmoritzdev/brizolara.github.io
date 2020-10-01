@@ -12,7 +12,7 @@ comments: true
 <br>Também tenho uma longa experiência em desenvolvimento de software na indústria médica, com um mestrado em Física Médica (UFSC-SC).<!--</br>-->
 </p>
 
-<p>Este site é uma versão masi completa do meu portfolio, mais recursos gratuitos e blog.</p>
+<p>Este site é uma versão mais completa do meu portfolio, mais recursos gratuitos e blog.</p>
 
 <p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
 
