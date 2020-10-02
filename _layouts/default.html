@@ -140,14 +140,14 @@ ga('send', 'pageview');
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
-        {{ site.description[0] }}  <!-- [Brizo] add [site.active_lang] (internationalization) -->
+        {{ site.description["en"] }}  <!-- [Brizo] add [site.active_lang] (internationalization) -->
     </p>
 </div>
 
 <!-- Content
 ================================================== -->
 <div class="main-content">
-    {{ content[site.active_lang] }}  <!-- [Brizo] add [site.active_lang] (internationalization) ?? -->
+    {{ content }}  <!-- [Brizo] add [site.active_lang] (internationalization) ?? -->
 </div>
 
 {% if site.mailchimp-list %}
