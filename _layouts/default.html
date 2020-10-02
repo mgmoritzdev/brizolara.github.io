@@ -6,7 +6,7 @@
 
 <link rel="icon" href="{{ site.baseurl }}/assets/images/assinatura-artistica.JPG">
 
-<title>{{ page.title }} | {{site.name}}</title>
+<title>{{ page.title[site.active_lang] }} | {{site.name}}</title> <!-- [Brizo] add [site.active_lang] (internationalization) -->
 
 {% seo %}
 
@@ -140,14 +140,14 @@ ga('send', 'pageview');
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
-        {{ site.description }}
+        {{ site.description[site.active_lang] }}  <!-- [Brizo] add [site.active_lang] (internationalization) -->
     </p>
 </div>
 
 <!-- Content
 ================================================== -->
 <div class="main-content">
-    {{ content }}
+    {{ content[site.active_lang] }}
 </div>
 
 {% if site.mailchimp-list %}

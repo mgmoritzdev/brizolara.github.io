@@ -1,7 +1,9 @@
 # Site
 name: "Tiago Brizolara"
 title: "Tiago Brizolara"
-description: "Creative Computing, Research, NIME, Ficção de Música Popular"
+description: 
+  en: "Creative Computing, Research, NIME, Contemporary Music"
+  pt_BR: "Computação Criativa, Pesquisa, NIME, Ficção de Música Popular"
 logo: 'assets/images/assinatura-artistica.JPG'
 favicon: 'assets/images/assinatura-artistica.JPG'
 baseurl: /brizolara.github.io
@@ -22,7 +24,9 @@ authors:
     email: tiago.brizolara@gmail.com
     web: https://tiagobrizolara.com
     twitter: https://twitter.com/brizolara
-    description: "Researcher, composer, creator, developer. From instrumental music to new interfaces for music expression."
+    description:
+      en: "Researcher, composer, creator, developer. From instrumental music to new interfaces for music expression."
+      pt_BR: "Pesquisador, compositor, criador, desenvolvedor. Da música instrumental até novas interfaces para expressão musical."
   john:
     name: John
     display_name: John?    
@@ -44,7 +48,7 @@ plugins:
   
 # Language (polyglot plugin)
 languages: ["en", "pt_BR"]
-default_lang: "en"
+default_lang: "pt_BR"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 parallel_localization: false # Windows users will need to disable parallel_localization on their machines by setting parallel_localization: false in the _config.yml
 lang_from_path: true

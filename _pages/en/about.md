@@ -9,7 +9,7 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Compositor, desenvolvedor e cientista. No momento pesquiso ligações do movimento humano com síntese de áudio (principalmente síntese a partir de primeiros princípios) e para visuais, tanto explícita quanto por IA (o <a href="{{site.baseurl}}/Elemental">Elemental</a> vem dessa pesquisa). Tenho criado música instrumental (choro, "jazz", etc) e desenho de áudio/trilha sonora/computação criativa em trabalhos com outros artistas e performers por alguns anos agora - músicos, DJs, atores, dançarinos... Morei no Brasil até 201, agora estou em doutorado na Université Bretagne Sud, França.  
+<p>Compositor, desenvolvedor e cientista. No momento pesquiso ligações do movimento humano com síntese de áudio (principalmente síntese a partir de primeiros princípios) e para visuais, tanto explícita quanto por IA (o <a href="{{site.baseurl}}/Elemental">Elemental</a> vem dessa pesquisa). Tenho criado música instrumental (choro, "jazz", etc) e desenho de áudio/trilha sonora/computação criativa em trabalhos com outros artistas e performers por alguns anos agora - músicos, DJs, atores, dançarinos... Morei no Brasil até 2018, agora estou em doutorado na Université Bretagne Sud, França.  
 <br>Também tenho uma longa experiência em desenvolvimento de software na indústria médica, com um mestrado em Física Médica (UFSC-SC).<!--</br>-->
 </p>
 
