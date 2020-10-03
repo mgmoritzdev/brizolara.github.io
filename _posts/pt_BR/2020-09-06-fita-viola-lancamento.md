@@ -24,9 +24,9 @@ hasPDF: false
 
 Ficha técnica:
 <pre>
-Música, violão 7 cordas, edição: Tiago Brizolara.
+Tiago Brizolara: música, violão 7 cordas, edição.
 Marcelo Pimenta: percussão.
 Tiago Suminsky: edição, mixagem, masterização, captação da percussão.
 Dimi Camorlinga: captação do violão.
-Capa: Ana Carpes, sobre quadro de vídeo de Dimi Camorlinga
+Ana Carpes: capa, sobre quadro de vídeo de Dimi Camorlinga.
 </pre>

@@ -6,7 +6,7 @@ categories: [ music composition, release, guitar, instrumental music, brazilian 
 tags: [music, composer, instrumental, acoustic, fingerstyle, guitar, 7strings, brazilian, latin, mpb, jazz]
 image: assets/images/divulgacao-streaming-fita-de-viola-facebook.png
 description: "Disponivel nas principais plataformas digitais."
-lang: pt_BR
+lang: en
 featured: false
 hidden: false
 hasAudio: true
@@ -18,15 +18,14 @@ hasSourceCode: false
 hasPDF: false
 ---
 
-**Quanto Dura Uma Fita de Viola em Tempo de Reis?** disponivel nas principais plataformas digitais - 2020.
+**Quanto Dura Uma Fita de Viola em Tempo de Reis?** available in the main digital platforms - 2020.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zx4zjXCMc14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Ficha técnica:
 <pre>
-Música, violão 7 cordas, edição: Tiago Brizolara.
-Marcelo Pimenta: percussão.
-Tiago Suminsky: edição, mixagem, masterização, captação da percussão.
-Dimi Camorlinga: captação do violão.
-Capa: Ana Carpes, sobre quadro de vídeo de Dimi Camorlinga
+Tiago Brizolara: Composition, 7 string guitar, editing.
+Marcelo Pimenta: percussion.
+Tiago Suminsky: editing, mix, master, percussion recording.
+Dimi Camorlinga: guitar recording.
+Ana Carpes: cover, from Dimi Camorlinga's video still.
 </pre>
