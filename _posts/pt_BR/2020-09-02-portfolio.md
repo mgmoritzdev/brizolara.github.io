@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Download Portfolio"
+title:  "Baixar portfolio"
 author: tiago
 categories: [portfolio, composer, contemporary art, soundtrack, brazilian music, instrumental, latin, mpb, jazz, developer, creative computing, multidisciplinar, software médico, processamento de imagem, física médica]
 tags: [portfolio, composer, contemporary art, soundtrack, brazilian music, instrumental, latin, mpb, jazz, developer, creative computing, multidisciplinar, software médico, processamento de imagem, física médica]
