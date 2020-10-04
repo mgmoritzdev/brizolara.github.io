@@ -7,6 +7,7 @@ tags: [music, composer, instrumental, acoustic, fingerstyle, guitar, 7strings, b
 image: assets/images/divulgacao-streaming-fita-de-viola-facebook.png
 description: "Disponivel nas principais plataformas digitais."
 lang: en
+permalink: en/fita-viola-lancamento
 featured: false
 hidden: false
 hasAudio: true
