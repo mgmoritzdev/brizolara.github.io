@@ -44,14 +44,14 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-polyglot
+#  - jekyll-polyglot
   
 # Language (polyglot plugin)
-languages: ["en", "pt_BR"]
-default_lang: "en"
-active_lang: "pt_BR"
-exclude_from_localization: ["javascript", "images", "css", "README.md"]
-parallel_localization: false # Windows users will need to disable parallel_localization on their machines by setting parallel_localization: false in the _config.yml
+#languages: ["en", "pt_BR"]
+#default_lang: "en"
+#active_lang: "pt_BR"
+#exclude_from_localization: ["javascript", "images", "css", "README.md"]
+#parallel_localization: false # Windows users will need to disable parallel_localization on their machines by setting parallel_localization: false in the _config.yml
 #lang_from_path: true
 
 # Workaround for polyglot to function (https://github.com/untra/polyglot)
