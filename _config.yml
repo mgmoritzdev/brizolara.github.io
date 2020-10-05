@@ -1,13 +1,13 @@
 # Site
 name: "Tiago Brizolara"
 title: "Tiago Brizolara"
-description: 
+description:
   en: "Creative Computing, Research, NIME, Contemporary Music"
   pt_BR: "Computação Criativa, Pesquisa, NIME, Ficção de Música Popular"
 logo: 'assets/images/assinatura-artistica.JPG'
 favicon: 'assets/images/assinatura-artistica.JPG'
 baseurl: /brizolara.github.io
-theme: mediumish-theme-jekyll
+#theme: mediumish-theme-jekyll
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -27,15 +27,15 @@ authors:
     description:
       en: "Researcher, composer, creator, developer. From instrumental music to new interfaces for music expression."
       pt_BR: "Pesquisador, compositor, criador, desenvolvedor. Da música instrumental até novas interfaces para expressão musical."
-  john:
-    name: John
-    display_name: John?    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+# john:
+#   name: John
+#   display_name: John?    
+#   avatar: 'assets/images/avatar.png'
+#   gravatar: b1cc14991db7a456fcd761680bbc8f81
+#   email: wowthemesnet@gmail.com
+#   web: https://www.wowthemes.net
+#   twitter: https://twitter.com/wowthemesnet
+#   description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
 plugins:
@@ -44,13 +44,13 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-#  - jekyll-polyglot
+  - jekyll-polyglot
   
 # Language (polyglot plugin)
-#languages: ["en", "pt_BR"]
-#default_lang: "en"
-#active_lang: "pt_BR"
-#exclude_from_localization: ["javascript", "images", "css", "README.md"]
+languages: ["pt_BR", "en"]
+default_lang: "pt_BR"
+active_lang: "pt_BR"
+exclude_from_localization: ["javascript", "images", "css", "README.md"]
 #parallel_localization: false # Windows users will need to disable parallel_localization on their machines by setting parallel_localization: false in the _config.yml
 #lang_from_path: true
 
@@ -65,11 +65,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
+
 # Pagination 
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
