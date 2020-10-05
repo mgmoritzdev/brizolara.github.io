@@ -21,13 +21,7 @@
 <button class="button">interactive</button>
 {% endif %}
 {% if post.hasVideo %}
-<button class="button" onclick="EN()"></button>video</button>
-<script>
-function EN() {
-    site.active_lang = "en";
-    reload();
-}
-</script>
+<button class="button" ></button>video</button>
 {% endif %}
 {% if post.hasPaper %}
 <button class="button">paper</button>
@@ -36,11 +30,7 @@ function EN() {
 <button class="button">source code</button>
 {% endif %}
 {% if post.hasAudio %}
-<button class="button" onclick="PT()">audio</button>
-function PT() {
-  site.active_lang = "pt_BR";
-  reload();
-}
+<button class="button" >audio</button>
 {% endif %}
 {% if post.hasScore %}
 <button class="button">music score</button>
