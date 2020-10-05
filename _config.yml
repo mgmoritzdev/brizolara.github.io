@@ -45,7 +45,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-polyglot
+#  - jekyll-polyglot (for now, not using)
   
 # Language (polyglot plugin)
 languages: ["pt_BR", "en"]
