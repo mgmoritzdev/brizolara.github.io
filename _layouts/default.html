@@ -63,11 +63,11 @@ ga('send', 'pageview');
 
             <ul class="navbar-nav ml-auto">
 
-                <!-- [Brizo] Test from polyglot's sidebar.html...
+                <!-- [Brizo] Test from polyglot's sidebar.html... -->
                 {% for tongue in site.languages %}
-                <a {% if tongue == get_active_lang() %}style="font-weight: bold;"{% endif %} href="{% if tongue == get_active_lang() %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> |
+                <a {% if tongue == { get_active_lang() } %}style="font-weight: bold;"{% endif %} href="{% if tongue == { get_active_lang() } %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> |
                 {% endfor %}
-                -->
+                <!-- -->
 
                 {% if page.url == "/" %}
                 <li class="nav-item active">
@@ -77,9 +77,9 @@ ga('send', 'pageview');
                 <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
 
-                <!-- [Brizo] Manual internacionalization: added {{ get_active_lang() }}/-->
+                <!-- [Brizo] Manual internacionalization: added {{ get_active_lang() }}-->
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/{ get_active_lang() }/about">About / CV / Portfolio</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{ get_active_lang() }about">About / CV / Portfolio</a>
                 </li>
 
                 <li class="nav-item">
