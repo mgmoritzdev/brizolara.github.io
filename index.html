@@ -3,19 +3,32 @@ layout: default
 title: Home
 ---
 
+<!-- [Brizo] manual internationalization... -->
+<script>
+    var active_lang = "en"; // check _config.yml for languages array and other language definitions
+    function active_lang() {
+        return active_lang;
+    }
+    function set_active_lang(activeLang) {
+        active_lang = activeLang;
+    }
+</script>
+
 {% if page.url == "/" %}
 
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
-        <h2><span>{{ site.featured_description[active_lang] }}</span></h2>  <!-- [Brizo] Manual internacionalization: added active_lang (internationalization) -->
+        active_lang()
+        <p></p>
+        <h2><span>{{ site.featured_description[active_lang()] }}</span></h2>  <!-- [Brizo] Manual internacionalization: added active_lang (internationalization) -->
     </div>
     <div class="row">
 
     {% for post in site.posts %}
 
-        {% if post.featured == true and post.lang == active_lang %}  <!-- [Brizo] Manual internacionalization: added active_lang (internationalization) -->
+        {% if post.featured == true and post.lang == active_lang() %}  <!-- [Brizo] Manual internacionalization: added active_lang (internationalization) -->
 
             {% include featuredbox.html %}
 
@@ -42,7 +55,7 @@ title: Home
 
         {% for post in paginator.posts %}
 
-            <!-- {% if post.lang == active_lang %}   <!--   [Brizo] add this if? -->
+            <!-- {% if post.lang == active_lang() %}   <!--   [Brizo] add this if? -->
                 
                 {% include postbox.html %}
 
