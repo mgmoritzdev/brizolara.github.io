@@ -77,7 +77,7 @@ ga('send', 'pageview');
                 <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
 
-                <!-- [Brizo] Manual internacionalization: added {{ get_active_lang() }}-->
+                <!-- [Brizo] Manual internacionalization. FIXME: should strip the baseurl, that contaisn the language, and substitute by get_active_lang() -->
                 <li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl | replace: \"en\", \"pt_BR\" }}/about">About / CV / Portfolio</a>
                 </li>
