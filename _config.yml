@@ -4,6 +4,9 @@ title: "Tiago Brizolara"
 description:
   en: "Creative Computing, Research, NIME, Contemporary Music"
   pt_BR: "Computação Criativa, Pesquisa, NIME, Ficção de Música Popular"
+featured_description:
+  en: "Projects - shows, source code, papers"
+  pt_BR: "Projetos - shows, código-fonte, artigos"
 logo: 'assets/images/assinatura-artistica.JPG'
 favicon: 'assets/images/assinatura-artistica.JPG'
 baseurl: /brizolara.github.io
