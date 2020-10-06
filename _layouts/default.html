@@ -129,12 +129,12 @@ ga('send', 'pageview');
 
                 <script>
                     function setLangTo_pt_BR() {
-                        location.assign("{{site.baseurl}}/pt_BR/{{page.url}}");
+                        location.assign("{{site.baseurl}}/pt_BR{{page.url}}");
                         //location.reload();
                         set_active_lang("pt_BR");
                     }
                     function setLangTo_en() {
-                        location.assign("{{site.baseurl}}/en/{{page.url}}");
+                        location.assign("{{site.baseurl}}/en{{page.url}}");
                         //location.reload();
                         set_active_lang("en");
                     }
