@@ -79,7 +79,7 @@ ga('send', 'pageview');
 
                 <!-- [Brizo] Manual internacionalization: added {{ get_active_lang() }}-->
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/{ get_active_lang() }/about">About / CV / Portfolio</a>
+                <a class="nav-link" href="{{ site.baseurl | replace: \"en\", \"pt_BR\" }}/about">About / CV / Portfolio</a>
                 </li>
 
                 <li class="nav-item">
@@ -127,14 +127,15 @@ ga('send', 'pageview');
 
                 {% include search-lunr.html %}
 
+                <!-- FIXME - Awful solution that won't work for 3 languages or more -->
                 <script>
                     function setLangTo_pt_BR() {
-                        location.assign("{{site.baseurl}}/pt_BR{{page.url}}");
+                        location.assign("{{site.baseurl | replace: \"en\", \"pt_BR\" }}/{{page.url}}");
                         //location.reload();
                         set_active_lang("pt_BR");
                     }
                     function setLangTo_en() {
-                        location.assign("{{site.baseurl}}/en{{page.url}}");
+                        location.assign("{{site.baseurl | replace: \"pt_BR\", \"en\" }}/{{page.url}}");
                         //location.reload();
                         set_active_lang("en");
                     }
