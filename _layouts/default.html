@@ -228,7 +228,11 @@ ga('send', 'pageview');
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
-        {{ site.description[{ get_active_lang() }] }}  <!-- [Brizo] Manual internacionalization: added [get_active_lang()] -->
+        <!-- [Brizo] FIXME - very dumb internationalization. Did this way because Liquid is rendered before JS...-->
+        {% if get_active_lang() == "pt_BR" %}
+            {{ site.description["pt_BR"] }} 
+        {% else}
+            {{ site.description["en"] }} 
     </p>
 </div>
 
