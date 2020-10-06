@@ -78,9 +78,9 @@ ga('send', 'pageview');
                 </li>
 
                 <!-- [Brizo] Manual internacionalization. FIXME: should strip the baseurl, that contais the language, and substitute by get_active_lang() -->
-                <li class="nav-item">
+                <!--<li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl | replace: 'en', 'pt_BR' }}/about">About / CV / Portfolio</a>
-                </li>
+                </li>-->
 
                 <li class="nav-item">
                     <a target="_blank" class="nav-link" href="www.github.com/brizolara"><i class="fab fa-github"></i> GitHub</a>
@@ -127,7 +127,7 @@ ga('send', 'pageview');
 
                 {% include search-lunr.html %}
 
-                <!-- FIXME - Awful solution that won't work for 3 languages or more. Should strip the baseurl, that contais the language, and substitute by get_active_lang() -->
+                <!-- FIXME - Awful solution that won't work for 3 languages or more. Should strip the baseurl, that contais the language, and substitute by get_active_lang() 
                 <script>
                     function setLangTo_pt_BR() {
                         location.assign("{{site.baseurl}}{{page.url | replace: 'en/', 'pt_BR/' }}");
@@ -139,7 +139,7 @@ ga('send', 'pageview');
                         //location.reload();
                         set_active_lang("en");
                     }
-                </script>
+                </script>-->
                 <span>
                 <li class="nav-item"><!--<div class="centerThings">-->
                     <button id="flagButton_PROVISORIO" onclick="setLangTo_pt_BR()">
