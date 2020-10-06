@@ -130,12 +130,12 @@ ga('send', 'pageview');
                 <!-- FIXME - Awful solution that won't work for 3 languages or more. Should strip the baseurl, that contais the language, and substitute by get_active_lang() -->
                 <script>
                     function setLangTo_pt_BR() {
-                        location.assign("{{site.baseurl | replace: 'en', 'pt_BR' }}/{{page.url}}");
+                        location.assign("{{site.baseurl}}/{{page.url | replace: 'en', 'pt_BR' }}");
                         //location.reload();
                         set_active_lang("pt_BR");
                     }
                     function setLangTo_en() {
-                        location.assign("{{site.baseurl | replace: 'pt_BR', 'en' }}/{{page.url}}");
+                        location.assign("{{site.baseurl}}/{{page.url | replace: 'pt_BR', 'en' }}");
                         //location.reload();
                         set_active_lang("en");
                     }
