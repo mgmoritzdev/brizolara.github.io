@@ -53,7 +53,6 @@ plugins:
 # Language (polyglot plugin)
 languages: ["pt_BR", "en"]
 default_lang: "pt_BR"
-active_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 #parallel_localization: false # Windows users will need to disable parallel_localization on their machines by setting parallel_localization: false in the _config.yml
 #lang_from_path: true

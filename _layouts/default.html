@@ -4,6 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<!-- [Brizo] manual internationalization... -->
+<script>
+    var active_lang = "en"; // check _config.yml for languages array and other language definitinos
+</script>
+
 <link rel="icon" href="{{ site.baseurl }}/assets/images/assinatura-artistica.JPG">
 
 <title>{{ page.title }} | {{site.name}}</title>
@@ -65,7 +70,7 @@ ga('send', 'pageview');
 
                 <!-- [Brizo] Test from polyglot's sidebar.html...
                 {% for tongue in site.languages %}
-                <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if tongue == site.active_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> |
+                <a {% if tongue == active_lang %}style="font-weight: bold;"{% endif %} href="{% if tongue == active_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> |
                 {% endfor %}
                 -->
 
@@ -77,9 +82,9 @@ ga('send', 'pageview');
                 <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
 
-                <!-- [Brizo] Manual internacionalization: added {{ site.active_lang }}/-->
+                <!-- [Brizo] Manual internacionalization: added {{ active_lang }}/-->
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/{{ site.active_lang }}/about">About / CV / Portfolio</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ active_lang }}/about">About / CV / Portfolio</a>
                 </li>
 
                 <li class="nav-item">
@@ -130,11 +135,11 @@ ga('send', 'pageview');
                 <script>
                     function setLangTo_pt_BR() {
                         location.reload();
-                        site.active_lang = "pt_BR";
+                        active_lang = "pt_BR";
                     }
                     function setLangTo_en() {
                         location.reload();
-                        site.active_lang = "en";
+                        active_lang = "en";
                     }
                 </script>
                 <span>
@@ -225,14 +230,14 @@ ga('send', 'pageview');
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
-        {{ site.description[site.active_lang] }}  <!-- [Brizo] Manual internacionalization: added [site.active_lang] -->
+        {{ site.description[active_lang] }}  <!-- [Brizo] Manual internacionalization: added [active_lang] -->
     </p>
 </div>
 
 <!-- Content
 ================================================== -->
 <div class="main-content">
-    {{ content }}  <!-- [Brizo] add [site.active_lang] (internationalization) ?? -->
+    {{ content }}  <!-- [Brizo] add [active_lang] (internationalization) ?? -->
 </div>
 
 {% if site.mailchimp-list %}

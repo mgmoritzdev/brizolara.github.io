@@ -9,13 +9,13 @@ title: Home
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
-        <h2><span>{{ site.featured_description[site.active_lang] }}</span></h2>
+        <h2><span>{{ site.featured_description[active_lang] }}</span></h2>  <!-- [Brizo] Manual internacionalization: added active_lang (internationalization) -->
     </div>
     <div class="row">
 
     {% for post in site.posts %}
 
-        {% if post.featured == true and post.lang == site.active_lang %}  <!-- [Brizo] Manual internacionalization: added site.active_lang (internationalization) -->
+        {% if post.featured == true and post.lang == active_lang %}  <!-- [Brizo] Manual internacionalization: added active_lang (internationalization) -->
 
             {% include featuredbox.html %}
 
@@ -42,7 +42,7 @@ title: Home
 
         {% for post in paginator.posts %}
 
-            <!-- {% if post.lang == site.active_lang %}   <!--   [Brizo] add this if? -->
+            <!-- {% if post.lang == active_lang %}   <!--   [Brizo] add this if? -->
                 
                 {% include postbox.html %}
 
