@@ -7,7 +7,7 @@ tags: [music, composer, acoustic, guitar, 7strings, brazilian, latin, mpb]
 image: assets/images/divulgacao-streaming-milongas-facebook.png
 description: "Disponivel nas principais plataformas digitais."
 lang: pt_BR
-permalink: pt_BR/primeiras-milongas
+#permalink: pt_BR/primeiras-milongas
 featured: false
 hidden: false
 hasAudio: true

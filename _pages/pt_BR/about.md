@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About / Portfolio / CV / Release
-permalink: pt_BR/about
+permalink: /about
 lang: pt_BR
 comments: true
 ---

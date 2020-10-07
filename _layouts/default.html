@@ -18,6 +18,19 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+<!-- [Brizo] manual internationalization... -->
+<script>
+    var language = {
+        activeLang: "en", // check _config.yml for languages array and other language definitions
+        get active_lang() {
+            return this.activeLang;
+        },
+        set active_lang(lang) {
+            this.activeLang = lang;
+        }
+    }
+</script>
+
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -63,12 +76,6 @@ ga('send', 'pageview');
 
             <ul class="navbar-nav ml-auto">
 
-                <!-- [Brizo] Test from polyglot's sidebar.html... 
-                {% for tongue in site.languages %}
-                <a {% if tongue == { get_active_lang() } %}style="font-weight: bold;"{% endif %} href="{% if tongue == { get_active_lang() } %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> |
-                {% endfor %}
-                 -->
-
                 {% if page.url == "/" %}
                 <li class="nav-item active">
                 {% else %}
@@ -78,12 +85,12 @@ ga('send', 'pageview');
                 </li>
 
                 <!-- [Brizo] Manual internacionalization. FIXME: should strip the baseurl, that contais the language, and substitute by get_active_lang() -->
-                <!--<li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl | replace: 'en', 'pt_BR' }}/about">About / CV / Portfolio</a>
-                </li>-->
+                <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/about">About / CV / Portfolio</a> <!-- | replace: 'en', 'pt_BR'-->
+                </li>
 
                 <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="www.github.com/brizolara"><i class="fab fa-github"></i> GitHub</a>
+                    <a target="_blank" class="nav-link" href="https://www.github.com/brizolara"><i class="fab fa-github"></i> GitHub</a>
                 </li>
 
                 <!-- gitlab
@@ -92,7 +99,7 @@ ga('send', 'pageview');
                 </li> -->
 
                 <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="www.instagram.com/tiago.brizolara"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a target="_blank" class="nav-link" href="https://www.instagram.com/tiago.brizolara"><i class="fab fa-instagram"></i> Instagram</a>
                 </li>
 
                 <li class="nav-item">
@@ -100,7 +107,7 @@ ga('send', 'pageview');
                 </li>
 
                 <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="www.soundcloud.com/tiagobrizolara"><i class="fab fa-soundcloud"></i> SoundCloud</a>
+                    <a target="_blank" class="nav-link" href="https://www.soundcloud.com/tiagobrizolara"><i class="fab fa-soundcloud"></i> SoundCloud</a>
                 </li>
 
                 <li class="nav-item">
@@ -127,19 +134,24 @@ ga('send', 'pageview');
 
                 {% include search-lunr.html %}
 
-                <!-- FIXME - Awful solution that won't work for 3 languages or more. Should strip the baseurl, that contais the language, and substitute by get_active_lang() 
+                <!-- FIXME - Awful solution that won't work for 3 languages or more. Should strip the baseurl, that contais the language, and substitute by get_active_lang() -->
                 <script>
                     function setLangTo_pt_BR() {
-                        location.assign("{{site.baseurl}}{{page.url | replace: 'en/', 'pt_BR/' }}");
-                        //location.reload();
-                        set_active_lang("pt_BR");
+
+                        if (active_lang == 'en') {
+                            location.assign("{{site.baseurl}}{{page.url | replace: 'en/', '/' }}");
+                            //location.reload();
+                            active_lang("pt_BR");
+                        }
                     }
                     function setLangTo_en() {
-                        location.assign("{{site.baseurl}}{{page.url | replace: 'pt_BR/', 'en/' }}");
-                        //location.reload();
-                        set_active_lang("en");
+                        if (active_lang == 'pt_BR') {
+                            location.assign("{{site.baseurl}}en{{page.url}}");
+                            //location.reload();
+                            active_lang("en");
+                        }
                     }
-                </script>-->
+                </script>
                 <span>
                 <li class="nav-item"><!--<div class="centerThings">-->
                     <button id="flagButton_PROVISORIO" onclick="setLangTo_pt_BR()">
@@ -228,11 +240,7 @@ ga('send', 'pageview');
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
-        <!-- [Brizo] FIXME - very dumb internationalization. Did this way because Liquid is rendered before JS...-->
-        {% if get_active_lang() == "pt_BR" %}
-            {{ site.description["pt_BR"] }} 
-        {% else}
-            {{ site.description["en"] }} 
+        {{ site.description }}
     </p>
 </div>
 

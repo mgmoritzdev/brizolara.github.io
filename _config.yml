@@ -2,11 +2,11 @@
 name: "Tiago Brizolara"
 title: "Tiago Brizolara"
 description:
-  en: "Creative Computing, Research, NIME, Contemporary Music"
   pt_BR: "Computação Criativa, Pesquisa, NIME, Ficção de Música Popular"
+  en: "Creative Computing, Research, NIME, Contemporary Music"
 featured_description:
-  en: "Projects - shows, source code, papers"
   pt_BR: "Projetos - shows, código-fonte, artigos"
+  en: "Projects - shows, source code, papers"
 logo: 'assets/images/assinatura-artistica.JPG'
 favicon: 'assets/images/assinatura-artistica.JPG'
 baseurl: /brizolara.github.io
@@ -28,8 +28,8 @@ authors:
     web: https://tiagobrizolara.com
     twitter: https://twitter.com/brizolara
     description:
-      en: "Researcher, composer, creator, developer. From instrumental music to new interfaces for music expression."
       pt_BR: "Pesquisador, compositor, criador, desenvolvedor. Da música instrumental até novas interfaces para expressão musical."
+      en: "Researcher, composer, creator, developer. From instrumental music to new interfaces for music expression."
 
 # john:
 #   name: John
@@ -48,13 +48,13 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-#  - jekyll-polyglot (for now, not using)
+  - jekyll-polyglot
   
 # Language (polyglot plugin)
 languages: ["pt_BR", "en"]
 default_lang: "pt_BR"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
-#parallel_localization: false # Windows users will need to disable parallel_localization on their machines by setting parallel_localization: false in the _config.yml
+parallel_localization: false # Windows users will need to disable parallel_localization on their machines by setting parallel_localization: false in the _config.yml
 #lang_from_path: true
 
 # Workaround for polyglot to function (https://github.com/untra/polyglot)

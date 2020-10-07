@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About / Portfolio / CV / Release
-permalink: en/about
+permalink: /about
 lang: en
 comments: true
 ---

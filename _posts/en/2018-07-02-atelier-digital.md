@@ -5,7 +5,7 @@ author: tiago
 categories: [ digital art, group, exhibition, art gallery, interactive installation, art installation, multidisciplinar, florianopolis ]
 image: assets/images/atelier-digital.jpg
 lang: en
-permalink: en/atelier-digital
+#permalink: en/atelier-digital
 featured: false
 hidden: false
 hasAudio: false

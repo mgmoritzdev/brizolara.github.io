@@ -7,7 +7,7 @@ tags: [portfolio, composer, contemporary art, soundtrack, brazilian music, instr
 image: assets/images/portfolio.png
 description: "Download portfolio"
 lang: en
-permalink: en/portfolio
+#permalink: en/portfolio
 featured: false
 hidden: false
 hasAudio: false
